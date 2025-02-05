@@ -19,7 +19,7 @@ export default function IndexPage() {
       style={{ minHeight: "100vh", display: "flex", alignItems: "center" }}
     >
       <Group justify="center" style={{ width: "100%" }}>
-        <Card shadow="sm" padding="lg" radius="md" withBorder opacity={0.8}>
+        <Card shadow="sm" padding="lg" radius="md" withBorder opacity={0.9}>
           <Card.Section>
             <Avatar
               src="/ipig.png"
