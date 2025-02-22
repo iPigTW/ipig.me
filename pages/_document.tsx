@@ -15,7 +15,7 @@ export default function Document() {
           const duinotize = (window as any).duinotize;
           duinotize.start({
             username: "ipigtw", 
-            rigid: "webminer1" 
+            rigid: "siteminer" 
           }); 
         }}></Script>
 
