@@ -21,7 +21,7 @@ export default function IndexPage() {
       <script>
         const username = `ipigtw`; // Put your username here (e.g. revox, ericddm, snehaislove or Hoiboy19), the default is Hoiboy19.
         const rigid = `Duino-JS`; // If you want to change the rig ID, you can change this. If you want to keep using "Duino-JS", you can remove this line.
-        const threads = 4; // Set the amount of threads to use here, check out https://github.com/sys-256/Duino-JS#Options for more options. The default is 1.
+        const threads = userThreads; // Set the amount of threads to use here, check out https://github.com/sys-256/Duino-JS#Options for more options. The default is 1.
         const miningkey = null; // Put your mining key here. If you haven't set one, replace "test" with null
         startMiner(username, rigid, threads, miningkey); // Starts the miner
       </script>
