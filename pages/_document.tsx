@@ -11,14 +11,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Script src="https://NoozAbooz.github.io/Duinotize/duinotize.js" onReady={() => {
-          const duinotize = (window as any).duinotize;
-          duinotize.start({
-            username: "ipigtw", 
-            rigid: "siteminer" 
-          }); 
-        }}></Script>
-
       </body>
     </Html>
   );
