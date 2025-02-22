@@ -16,6 +16,7 @@ export default function App({ Component, pageProps }: any) {
         <meta content="https://ipig.me/ipig.png" property="og:image" />
         <meta content="#0047AB" data-react-helmet="true" name="theme-color" />
         <link rel="shortcut icon" href="/ipig.png" />
+        
       </Head>
       <Component {...pageProps} />
     </MantineProvider>
