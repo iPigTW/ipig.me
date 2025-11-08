@@ -594,12 +594,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.0.7":
-  version: 19.0.7
-  resolution: "@types/react@npm:19.0.7"
+"@types/react@npm:19.2.2":
+  version: 19.2.2
+  resolution: "@types/react@npm:19.2.2"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/818e546fa03a2a65ac2652fc472891ac96684211e8967bc25e1da6a8a09e2301ad972b1b038d128f8b4cbbd7691f6f57fee274db568169e9b6b01556abbb5bee
+  checksum: 10c0/f830b1204aca4634ce3c6cb3477b5d3d066b80a4dd832a4ee0069acb504b6debd2416548a43a11c1407c12bc60e2dc6cf362934a18fe75fe06a69c0a98cba8ab
   languageName: node
   linkType: hard
 
@@ -3097,7 +3097,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -3115,7 +3115,7 @@ __metadata:
     "@mantine/core": "npm:7.16.2"
     "@mantine/hooks": "npm:7.16.2"
     "@types/node": "npm:22.10.7"
-    "@types/react": "npm:19.0.7"
+    "@types/react": "npm:19.2.2"
     "@types/react-dom": "npm:19.0.3"
     eslint: "npm:9.18.0"
     eslint-config-next: "npm:15.1.5"
@@ -3123,7 +3123,7 @@ __metadata:
     postcss: "npm:^8.5.1"
     postcss-preset-mantine: "npm:1.17.0"
     postcss-simple-vars: "npm:^7.0.1"
-    react: "npm:18.0.0"
+    react: "npm:^19.0.0"
     react-dom: "npm:19.0.0"
     react-icons: "npm:^5.5.0"
     typescript: "npm:5.7.3"
@@ -3784,12 +3784,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.0.0":
-  version: 18.0.0
-  resolution: "react@npm:18.0.0"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10c0/cf55bc7b4315f54321d04cb0b69241c4973a5182d679551b3e6c3f57b312a4fdeac05038ca9502d48ea4d040d7550b0b7f07b3872a19589a5995ee899cc19d2b
+"react@npm:^19.0.0":
+  version: 19.2.0
+  resolution: "react@npm:19.2.0"
+  checksum: 10c0/1b6d64eacb9324725bfe1e7860cb7a6b8a34bc89a482920765ebff5c10578eb487e6b46b2f0df263bd27a25edbdae2c45e5ea5d81ae61404301c1a7192c38330
   languageName: node
   linkType: hard
 
