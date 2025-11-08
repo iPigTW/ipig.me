@@ -37,7 +37,7 @@ export default function IndexPage() {
             iPig
           </Text>
           <Text size="sm" c="dimmed">
-            I'm a 13 years old programmer from Taiwan
+            I'm a 14 years old programmer from Taiwan
           </Text>
           <Group mt="md" justify="center" gap="md" grow w="100%">
             <Button
